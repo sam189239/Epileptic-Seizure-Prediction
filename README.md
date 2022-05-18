@@ -13,7 +13,7 @@ The CHBMIT scalp EEG database was used for the training of the model. Recordings
 
 ![Block Diagram](https://github.com/sam189239/Epileptic-Seizure-Prediction/blob/main/images/5.jpg?raw=true)
 
-Outcomes
+Outcomes:
 
 - Machine Learning has been employed to classify raw EEG signal data into Pre-ictaland Inter-ictal periods.
 - Classifier model is trained using CHB-MIT EEG Dataset.
