@@ -6,6 +6,7 @@ Data used:
 
 The CHBMIT scalp EEG database was used for the training of the model. Recordings, grouped into 23 cases, were collected from 22 subjects (5 males, ages 3–22; and 17 females, ages 1.5–19). The raw EEG signals were sampled at 256 samples per second with 16-bit resolution. Most files contain 23 EEG signals.  The International 10-20 system of EEG electrode positions and nomenclature was used for these recordings. There are 664 edf files included in this collection, which contain exactly one hour of digitized EEG signals, and 129 of those files contain one or more seizures. In all, these records include 198 seizures.
 
+https://physionet.org/content/chbmit/1.0.0/ 
 
 ![Block Diagram](https://github.com/sam189239/Epileptic-Seizure-Prediction/blob/main/images/2.jpg?raw=true)
 
