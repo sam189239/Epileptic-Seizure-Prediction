@@ -1,4 +1,5 @@
-# Epileptic Seizure Prediction Using Deep Learning
+# Epileptic Seizure Prediction - ConvLSTM
+** Spatio-temporal modeling**
 
 ## Objective
 
@@ -24,7 +25,7 @@ The model can make real-time predictions when fed with live EEG data, allowing f
 - Machine Learning has been employed to classify raw EEG signal data into Pre-ictal and Inter-ictal periods.
 - Dataset was manually cleaned and processed (large-scale data processing)
 - Classification is carried out on 5-minute intervals of 23-channel EEG signal collected using Brain-Computer Interface.
-The model uses Convolutional layers to find spatial relationships and Bidirectional LSTM layers to find temporal relationships, detecting pre-ictal and inter-ictal periods.
+- The model uses Convolutional layers to find spatial relationships and Bidirectional LSTM layers to find temporal relationships, detecting pre-ictal and inter-ictal periods.
 - When this model is fed real-time data, classification can be done in real-time to identify potential pre-ictal periods, allowing pre-emptive indication of an impending Epileptic seizure.
 - This alarm would allow for medication to be taken ahead of an Epileptic Seizure to reduce the effects of the seizure or even avoid it entirely.
 
