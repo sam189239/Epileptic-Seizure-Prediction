@@ -1,5 +1,5 @@
 # Epileptic Seizure Prediction - ConvLSTM
-** Spatio-temporal modeling**
+**Spatio-temporal modeling**
 
 ## Objective
 
