@@ -21,37 +21,20 @@ The model can make real-time predictions when fed with live EEG data, allowing f
 
 ## Outcomes
 
-- **Machine Learning Application**: The model classifies raw EEG signal data into pre-ictal and inter-ictal periods.
-- **Dataset Used**: CHB-MIT EEG dataset with 664 EEG files and 198 seizures.
-- **Real-time Prediction**: The model can classify EEG data in real-time, allowing early detection of impending seizures.
-- **Pre-emptive Medication**: By detecting pre-ictal periods, the system can trigger alarms to remind the patient to take medication, potentially reducing the impact of seizures or preventing them.
+- Machine Learning has been employed to classify raw EEG signal data into Pre-ictal and Inter-ictal periods.
+- Dataset was manually cleaned and processed (large-scale data processing)
+- Classification is carried out on 5-minute intervals of 23-channel EEG signal collected using Brain-Computer Interface.
+The model uses Convolutional layers to find spatial relationships and Bidirectional LSTM layers to find temporal relationships, detecting pre-ictal and inter-ictal periods.
+- When this model is fed real-time data, classification can be done in real-time to identify potential pre-ictal periods, allowing pre-emptive indication of an impending Epileptic seizure.
+- This alarm would allow for medication to be taken ahead of an Epileptic Seizure to reduce the effects of the seizure or even avoid it entirely.
 
-## Visuals
+## Workflows
 
 ![Block Diagram](https://github.com/sam189239/Epileptic-Seizure-Prediction/blob/main/images/2.jpg?raw=true)
 
 ![Model Architecture](https://github.com/sam189239/Epileptic-Seizure-Prediction/blob/main/images/3.jpg?raw=true)
 
 ![Block Diagram](https://github.com/sam189239/Epileptic-Seizure-Prediction/blob/main/images/5.jpg?raw=true)
-
-## Installation
-
-1. Clone the repository:
-   `git clone https://github.com/sam189239/Epileptic-Seizure-Prediction.git`
-
-2. Install dependencies:
-   `pip install -r requirements.txt`
-
-## Usage
-
-1. Load the dataset:
-   - The CHBMIT EEG dataset must be downloaded and placed in the appropriate directory.
-
-2. Train the model:
-   - Use the provided training scripts to train the model using the EEG data.
-
-3. Real-time Inference:
-   - The trained model can be used to make real-time predictions by feeding it live EEG data, allowing for early detection of pre-ictal periods.
 
 ## License
 
